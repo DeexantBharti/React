@@ -21,7 +21,7 @@ let [counter,setcounter] = useState(15)
     setcounter(counter-1) 
     
   }
-  return (
+  return(
     <>
    <h2>chai aur react</h2>
    <h1>coutner value: {counter}</h1>
